@@ -10,9 +10,10 @@ body {
 }
 
 .about-me {
+  max-width: 800px;
   font-family: 'Montserrat Light', sans-serif;
-  border: white solid 3px;
   color: white;
+  margin: auto;
   margin-top: 15px;
   padding-left: 5px;
   padding-right: 5px;
@@ -56,7 +57,7 @@ body {
 }
 
 .front-end-image {
-  max-height: 75px;
+  max-height: 100px;
 }
 
 .back-end-image {
@@ -70,6 +71,10 @@ body {
 
 .tools-image {
   max-width: 175px;
+}
+
+#netlify-logo {
+  max-height: 100px;
 }
 
 /*.nav-title {
