@@ -1,7 +1,7 @@
 var texts = ['Hello World.', 'My name is Blake.', 
 	'I\'m a fullstack developer and API junkie.', 'Shall we?'];
 
-var fontColor = ['rgb(226, 224, 217'];
+var fontColor = ['rgb(226, 224, 217)'];
 
 // function([string1, string2],target id,[color1,color2])    
 consoleText(texts, 'text', fontColor);
