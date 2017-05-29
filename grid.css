@@ -10,7 +10,7 @@
 }
 
 /* Clearfix */
-/*
+
 .row::before,
 .row::after {
   display: table;
@@ -51,4 +51,4 @@
   .col-12 {
     width: 100%;
   }
-}*/
+}
