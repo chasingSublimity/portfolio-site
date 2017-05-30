@@ -63,6 +63,7 @@ body {
 .back-end-image {
   max-height: 75px;
   max-width: 175px;
+  margin-bottom: 10px;
 }
 
 #node-logo {
@@ -74,7 +75,7 @@ body {
 }
 
 #netlify-logo {
-  max-height: 100px;
+  max-height: 115px;
 }
 
 /*.nav-title {
