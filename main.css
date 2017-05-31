@@ -33,6 +33,10 @@ body {
   color: white;
 }
 
+.traveler-image {
+  height: 500px;
+}
+
 .project-image {
   height: 150px;
 }
