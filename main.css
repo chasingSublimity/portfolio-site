@@ -38,16 +38,12 @@ body {
   color: white;
 }
 
-.traveler-image {
-  height: 350px;
-}
-
-.swearjar-image {
-  height: 350px;
-}
-
 .project-image {
-  height: 150px;
+  height: 350px;
+}
+
+.marvel-image {
+  height: 275px;
 }
 
 .project-description {
