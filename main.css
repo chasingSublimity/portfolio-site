@@ -38,6 +38,10 @@ body {
   color: white;
 }
 
+.projects > h2 {
+  font-weight: 900;
+}
+
 .project-image {
   height: 350px;
 }
@@ -83,7 +87,29 @@ body {
 }
 
 #netlify-logo {
-  max-height: 115px;
+  max-height: 125px;
+}
+
+.contact-me {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.contact-me > h2 {
+  font-weight: 900px;
+}
+
+.twitter-icon {
+  height: 150px;
+}
+
+.github-logo {
+  height: 150px
+}
+
+.email-image {
+  height: 150px;
 }
 
 /*.nav-title {
