@@ -10,7 +10,6 @@
 }
 
 /* Clearfix */
-
 .row::before,
 .row::after {
   display: table;
