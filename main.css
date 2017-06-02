@@ -42,11 +42,6 @@ body {
   font-weight: 900;
 }
 
-.project {
-  border: white 3px solid;
-  margin-bottom: 5px; 
-}
-
 button {
   display: inline-block;
   margin: 0 10px 0 0;
