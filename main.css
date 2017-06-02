@@ -10,12 +10,10 @@ body {
 }
 
 .about-me {
-  height: 100%;
   max-width: 800px;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  margin: auto;
-  margin-top: 15px;
+  margin: 15px auto 150px;
   padding-left: 5px;
   padding-right: 5px;
   text-align: center;
@@ -73,10 +71,6 @@ button:active {
 
 .traveler-image {
   margin-top: 10px;
-}
-
-.swearjar-image {
-  margin-left: -75px;
 }
 
 .marvel-image {
