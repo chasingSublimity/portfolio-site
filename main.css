@@ -33,9 +33,6 @@ body {
 }
 
 .projects {
-  max-width: 800px;
-  margin: auto;
-  margin-top: 15px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
@@ -46,7 +43,8 @@ body {
 }
 
 .project {
-  /*height: 100%*/
+  border: white 3px solid;
+  margin-bottom: 5px; 
 }
 
 button {
@@ -80,6 +78,10 @@ button:active {
 
 .traveler-image {
   margin-top: 10px;
+}
+
+.swearjar-image {
+  margin-left: -75px;
 }
 
 .marvel-image {
