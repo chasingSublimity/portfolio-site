@@ -7,14 +7,18 @@ var fontColor = ['rgb(226, 224, 217)'];
 consoleText(texts, 'text', fontColor);
 
 function consoleText(words, id, colors) {
+	// sets default color
 	if (colors === undefined) colors = ['#fff'];
+	// used for the blink
 	var visible = true;
+
 	var con = document.getElementById('console');
 	var letterCount = 1;
 	var x = 1;
 	var waiting = false;
 	var target = document.getElementById(id);
 	target.setAttribute('style', 'color:' + colors[0]);
+	
 	window.setInterval(function() {
 		if (letterCount === 0 && waiting === false) {
 			waiting = true;
@@ -41,14 +45,13 @@ function consoleText(words, id, colors) {
 			letterCount += x;
 		}
 	}, 120);
+
 	window.setInterval(function() {
 		if (visible === true) {
 			con.className = 'console-underscore hidden';
 			visible = false;
-
 		} else {
 			con.className = 'console-underscore';
-
 			visible = true;
 		}
 	}, 400);
