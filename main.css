@@ -10,6 +10,7 @@ body {
 }
 
 .about-me {
+  height: 100%;
   max-width: 800px;
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -44,8 +45,41 @@ body {
   font-weight: 900;
 }
 
+.project {
+  /*height: 100%*/
+}
+
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: none;
+  color: #fff;
+  background-color: rgb(226, 144, 89);
+  border: none;
+  border-radius: 3px;
+  min-width: 150px;
+}
+
+button:focus {
+  outline: none
+}
+
+button:hover {
+  background-color: rgb(167, 106, 66);
+}
+
+button:active {
+  background-color: rgb(97, 54, 25);
+}
+
 .project-image {
   height: 350px;
+}
+
+.traveler-image {
+  margin-top: 10px;
 }
 
 .marvel-image {
@@ -115,59 +149,3 @@ body {
 .email-image {
   height: 150px;
 }
-
-/*.nav-title {
-  color: #ae7045;
-  font-family: Roboto;  
-  position: absolute;
-  bottom: 0;
-  left: 25px;
-}
-
-.nav-links {
-  position: absolute;
-  bottom: 0;
-  right: 25px;
-}
-
-.nav-link {
-  color: white;
-  display: inline; 
-  text-decoration: none;
-  padding-right: 5px
-}*/
-
-
-/*.greybox {
-	background-color: grey;
-	height: 200px;
-	margin-bottom: 10px;
-	display: block;
-	border: black 3px solid;
-	text-align: center;
-	font-weight: bolder;
-}
-
-.greybox p {
-	height: 100px;
-  line-height: 150px;
-  white-space: nowrap;
-}
-
-.header-image {
-	width: 150px;
-  height: auto;
-  border-radius: 50%;
-}
-
-/* For when i build a nav bar*/
-/*.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 15px;
-  padding-top: 16px;
-  z-index: 99;
-  transition: all 0.6s ease;
-}*/
