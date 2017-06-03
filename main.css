@@ -168,3 +168,11 @@ button:active {
 .email-image {
   height: 150px;
 }
+
+.overlay {
+  display: inline-block;
+}
+
+.overlay:hover {
+  opacity: 0.2;
+}
