@@ -6,6 +6,13 @@ var fontColor = ['rgb(226, 224, 217)'];
 // function([string1, string2],target id,[color1,color2])    
 consoleText(texts, 'text', fontColor);
 
+// after animation runs once, scroll down to about me if user hasn't already scrolled past it.
+setTimeout(function() {
+	if ($(window).scrollTop() < 560) {
+		$('html, body').animate({scrollTop: $('.about-me').offset().top}, 1500);
+	}
+}, 27000);
+
 function consoleText(words, id, colors) {
 	// sets default color
 	if (colors === undefined) colors = ['#fff'];
