@@ -31,6 +31,7 @@ body {
 }
 
 .projects {
+  margin-top: 210px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
@@ -38,6 +39,7 @@ body {
 
 .projects > h2 {
   font-weight: 900;
+  margin-bottom: 50px;
 }
 
 .project {
@@ -148,6 +150,7 @@ button:active {
 }
 
 .contact-me {
+  margin-top: 150px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
@@ -157,16 +160,14 @@ button:active {
   font-weight: 900px;
 }
 
-.twitter-icon {
-  height: 150px;
+
+.contact-me-images {
+  height: 100px;
+  margin: 0 10px;
 }
 
-.github-logo {
-  height: 150px
-}
-
-.email-image {
-  height: 150px;
+#github-image {
+  height: 112px
 }
 
 .overlay {
