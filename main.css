@@ -42,7 +42,7 @@ body {
 
 button {
   display: inline-block;
-  margin: 0 10px 0 0;
+  margin: 0 10px 5px 0;
   padding: 15px;
   font-family: 'Montserrat', sans-serif;
   box-shadow: none;
