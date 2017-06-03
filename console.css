@@ -12,7 +12,7 @@
   max-width: 600px;
   display: block;
   color: rgb(173, 111, 69);
-  margin: 185px auto -50px;
+  margin: 185px auto 0px;
 }
 .console-underscore {
   display: inline-block;
