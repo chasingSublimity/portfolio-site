@@ -18,7 +18,7 @@ function consoleText(words, id, colors) {
 	var waiting = false;
 	var target = document.getElementById(id);
 	target.setAttribute('style', 'color:' + colors[0]);
-	
+
 	window.setInterval(function() {
 		if (letterCount === 0 && waiting === false) {
 			waiting = true;
@@ -46,6 +46,7 @@ function consoleText(words, id, colors) {
 		}
 	}, 120);
 
+	// handles cursor blink
 	window.setInterval(function() {
 		if (visible === true) {
 			con.className = 'console-underscore hidden';
