@@ -1,4 +1,4 @@
-var texts = ['Hello World.', 'My name is Blake.', 
+var texts = ['Hello World.', 'I\'m Blake.', 
 	'I\'m a fullstack developer and API junkie.', 'Shall we?'];
 
 var fontColor = ['rgb(226, 224, 217)'];
@@ -13,7 +13,7 @@ setTimeout(function() {
 		// fade in about me image
 		$('.about-me-image').fadeIn();
 	}
-}, 27000);
+}, 25300);
 
 // Handles about-me-img fade in if user scrolls before the animation is over.
 $(document).on('scroll', document, function() {
