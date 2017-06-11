@@ -32,7 +32,13 @@ body {
   letter-spacing: 0.025em;
 }
 
+.about-me-img-container {
+  min-height: 150px
+}
+
 .about-me-image {
+  display: none;
+  margin-top: 15px;
   border-radius: 50%;
   height: 150px;
   padding-bottom: 5px;
@@ -63,7 +69,7 @@ body {
 }
 
 .app-copy {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.025em;
 }
@@ -74,6 +80,10 @@ body {
 
 .app-copy > h3 {
   font-size: 20px;
+}
+
+.button-container {
+  margin-top: 25px;
 }
 
 button {
@@ -137,8 +147,6 @@ button:active {
   color: white;
   padding: 0 5px 0 5px;
 }
-
-
 
 .technology {
   max-width: 800px;
