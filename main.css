@@ -10,6 +10,7 @@ body {
 }
 
 .about-me {
+  display: none;
   max-width: 800px;
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -37,7 +38,6 @@ body {
 }
 
 .about-me-image {
-  display: none;
   margin-top: 15px;
   border-radius: 50%;
   height: 150px;

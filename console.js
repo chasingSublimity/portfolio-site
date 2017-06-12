@@ -11,15 +11,15 @@ setTimeout(function() {
 	if ($(window).scrollTop() < 560) {
 		$('html, body').animate({scrollTop: $('.about-me').offset().top}, 1500);
 		// fade in about me image
-		$('.about-me-image').fadeIn();
+		$('.about-me').fadeIn();
 	}
 }, 25300);
 
 // Handles about-me-img fade in if user scrolls before the animation is over.
 $(document).on('scroll', document, function() {
 	// if img is hidden, fade it in
-	if ($('.about-me-image').css('display') === 'none') {
-		$('.about-me-image').fadeIn();
+	if ($('.about-me').css('display') === 'none') {
+		$('.about-me').fadeIn();
 	}
 });
 
