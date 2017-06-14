@@ -9,17 +9,17 @@ consoleText(texts, 'text', fontColor);
 // after animation runs once, scroll down to about me if user hasn't already scrolled past it.
 setTimeout(function() {
 	if ($(window).scrollTop() < 560) {
-		$('html, body').animate({scrollTop: $('.about-me').offset().top}, 1500);
+		$('html, body').animate({scrollTop: $('.about-me').offset().top}, 1200);
 		// fade in about me image
-		$('.about-me').fadeIn();
+		$('.about-me').css('visibility','visible').hide().fadeIn('slow');
 	}
 }, 25300);
 
 // Handles about-me-img fade in if user scrolls before the animation is over.
 $(document).on('scroll', document, function() {
 	// if img is hidden, fade it in
-	if ($('.about-me').css('display') === 'none') {
-		$('.about-me').fadeIn();
+	if ($('.about-me').css('visibility') === 'hidden') {
+		$('.about-me').css('visibility','visible').hide().fadeIn('slow');
 	}
 });
 

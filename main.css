@@ -10,7 +10,7 @@ body {
 }
 
 .about-me {
-  display: none;
+  visibility: hidden;
   max-width: 800px;
   font-family: 'Montserrat', sans-serif;
   color: white;
