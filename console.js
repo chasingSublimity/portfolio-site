@@ -1,5 +1,5 @@
 var texts = ['Hello World.', 'I\'m Blake.', 
-	'I\'m a fullstack developer in Fort Worth, TX.', 'Shall we?'];
+	'I\'m a backend developer in Fort Worth, TX.', 'Shall we?'];
 
 var fontColor = ['rgb(226, 224, 217)'];
 
@@ -25,7 +25,7 @@ $(document).on('scroll', document, function() {
 
 function consoleText(words, id, colors) {
 	// sets default color
-	if (colors === undefined) colors = ['#fff'];
+	if (!colors) colors = ['#fff'];
 	// used for the blink
 	var visible = true;
 
@@ -37,7 +37,7 @@ function consoleText(words, id, colors) {
 	target.setAttribute('style', 'color:' + colors[0]);
 
 	window.setInterval(function() {
-		if (letterCount === 0 && waiting === false) {
+		if (!letterCount && !waiting) {
 			waiting = true;
 			target.innerHTML = words[0].substring(0, letterCount);
 			window.setTimeout(function() {
@@ -50,14 +50,14 @@ function consoleText(words, id, colors) {
 				letterCount += x;
 				waiting = false;
 			}, 1000);
-		} else if (letterCount === words[0].length + 1 && waiting === false) {
+		} else if (letterCount === words[0].length + 1 && !waiting) {
 			waiting = true;
 			window.setTimeout(function() {
 				x = -1;
 				letterCount += x;
 				waiting = false;
 			}, 1000);
-		} else if (waiting === false) {
+		} else if (!waiting) {
 			target.innerHTML = words[0].substring(0, letterCount);
 			letterCount += x;
 		}
@@ -65,7 +65,7 @@ function consoleText(words, id, colors) {
 
 	// handles cursor blink
 	window.setInterval(function() {
-		if (visible === true) {
+		if (visible) {
 			con.className = 'console-underscore hidden';
 			visible = false;
 		} else {

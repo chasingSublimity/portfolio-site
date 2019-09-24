@@ -1,0 +1,21 @@
+.hidden {
+  opacity: 0;
+}
+
+.console-container {
+  font-family: 'Montserrat';
+  font-size: 4em;
+  text-align: center;
+  height: auto;
+  min-height: 375px;
+  width: auto;
+  max-width: 600px;
+  display: block;
+  color: rgb(173, 111, 69);
+  margin: 185px auto 0px;
+}
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.05em;
+}

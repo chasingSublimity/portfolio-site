@@ -1,0 +1,215 @@
+body {
+  background: #232328;
+}
+
+.nav {
+  position: relative;
+  min-height: 150px;
+  border: white solid 3px;
+  margin-bottom: 15px;
+}
+
+.about-me {
+  visibility: hidden;
+  max-width: 800px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin: 0px auto 150px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.about-me > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.about-me-text {
+  padding: 0 8%;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+}
+
+.about-me-img-container {
+  min-height: 150px
+}
+
+.about-me-image {
+  margin-top: 15px;
+  border-radius: 50%;
+  height: 150px;
+  padding-bottom: 5px;
+}
+
+.projects {
+  margin: 210px 10px 0px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.projects > h2 {
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.project {
+  margin: 0 auto 35px;
+  box-shadow: 0 0 38px rgba(0,0,0,0.30);
+  padding: 15px;
+  background: #2b2b31;
+  min-height: 389px;
+}
+
+.app-title {
+  font-size: 20px;
+}
+
+.app-copy {
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+}
+
+#traveler-copy {
+  padding: 0 3%;
+}
+
+.app-copy > h3 {
+  font-size: 20px;
+}
+
+.button-container {
+  margin-top: 25px;
+}
+
+button {
+  display: inline-block;
+  margin: 0 10px 5px 0;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: none;
+  color: #fff;
+  background-color: rgb(226, 144, 89);
+  border: none;
+  border-radius: 3px;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none
+}
+
+button:hover {
+  background-color: rgb(167, 106, 66);
+}
+
+button:active {
+  background-color: rgb(97, 54, 25);
+}
+
+.project-image {
+  height: 350px;
+}
+
+.traveler-image {
+  margin-top: 10px;
+}
+
+.swearjar-image {
+  width: 100%;
+  height: auto;
+}
+
+.setlistr-image {
+  width: 100%;
+  height: auto;
+}
+
+.marvel-image-container {
+  margin-top: 5%;
+}
+
+.marvel-image {
+  width: 100%;
+  height: auto;
+}
+
+.marvel-project-description {
+  margin-top: 3%;
+}
+
+.project-description {
+  color: white;
+  padding: 0 5px 0 5px;
+}
+
+.technology {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 15px;
+  border: white solid 3px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: white; 
+}
+
+.front-end-tech {
+  margin-bottom: 5px
+}
+
+.front-end-image {
+  max-height: 100px;
+}
+
+.back-end-image {
+  max-height: 75px;
+  max-width: 175px;
+  margin-bottom: 10px;
+}
+
+#node-logo {
+  margin-bottom: 10px;
+}
+
+.tools-image {
+  max-width: 175px;
+}
+
+#netlify-logo {
+  max-height: 125px;
+}
+
+.contact-me {
+  margin-top: 150px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.contact-me > h2 {
+  font-weight: 900px;
+}
+
+
+.contact-me-images {
+  height: 100px;
+  margin: 0 10px;
+}
+
+#github-image {
+  height: 112px
+}
+
+.overlay {
+  display: inline-block;
+}
+
+.overlay:hover {
+  opacity: 0.2;
+}
